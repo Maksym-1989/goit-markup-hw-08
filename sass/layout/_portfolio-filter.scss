@@ -1,0 +1,30 @@
+.portfolio-filter .container {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.portfolio-filter .portfolio-filter-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: -15px;
+    margin-left: -8px;
+}
+
+.portfolio-filter .portfolio-filter-list-item {
+    margin-top: 15px;
+    margin-left: 8px;
+}
+
+@media screen and (min-width: 768px) {
+    .portfolio-filter .portfolio-filter-list {
+    justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+.portfolio-filter .container {
+    padding-top: 94px;
+    padding-bottom: 50px;
+}
+}
