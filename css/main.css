@@ -578,8 +578,9 @@ button {
 
 @media screen and (min-width: 1200px) {
   .modal {
-    width: 528px;
-    min-height: 581px;
+    max-width: 528px;
+    width: 100%;
+    min-height: 609px;
   }
   .modal .lable-checkbox {
     font-size: 14px;
