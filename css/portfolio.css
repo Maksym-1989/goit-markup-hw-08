@@ -626,7 +626,7 @@ button {
     margin-left: 50px;
   }
   .site-nav.list .link.current::after {
-    bottom: -29px;
+    bottom: -30px;
   }
   .auth-nav .link {
     font-size: 14px;
